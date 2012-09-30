@@ -1,0 +1,57 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+//@import "compass/reset";
+
+nav {
+  ul{ 
+	background: #efefef; 
+	background: linear-gradient(top, #efefef 0%, #bbbbbb 100%);  
+	background: -moz-linear-gradient(top, #efefef 0%, #bbbbbb 100%); 
+	background: -webkit-linear-gradient(top, #efefef 0%,#bbbbbb 100%); 
+	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+	padding: 0 20px;
+	border-radius: 10px; 
+	
+	ul {
+	  background: #5f6975; 
+	  border-radius: 0px; 
+	  padding: 0;
+	  
+	  li {
+		border-top: 1px solid #6b727c;
+		border-bottom: 1px solid #575f6a;
+		
+		a {
+		  padding: 15px 40px;
+		  color: #fff;
+		  
+		  &:hover {
+			background: #4b545f;
+		  }
+		}
+	  }
+	}
+	li {
+	 
+	 &:hover {
+		background: #4b545f;
+		background: linear-gradient(top, #4f5964 0%, #5f6975 40%);
+		background: -moz-linear-gradient(top, #4f5964 0%, #5f6975 40%);
+		background: -webkit-linear-gradient(top, #4f5964 0%,#5f6975 40%);
+		
+		a {
+		  color: white;
+		}
+     }
+     a {
+	   display: block; 
+	   padding: 25px 40px;
+	   color: #757575; 
+	   text-decoration: none;
+     }
+	}	  
+  }
+}
